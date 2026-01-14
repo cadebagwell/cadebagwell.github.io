@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #EEE7B4;
+	color: #976025;
+	font-family: Jokerman, Arial, sans-serif;
+}
+header {
+	background-color: #5c3b1b;
+	color: #EEE7B4;
+	height: 100px;
+	text-align: center;
+	padding-top: 5px;
+	padding-left: 3em;
+}
+header a {
+	text-decoration: none;
+}
+header a:link {
+	color: #EEE7B4;
+}
+header a:visited {
+	color: #EEE7B4;
+}
+header a:hover {
+	color: #F7E776;
+}
+nav {
+	font-weight: bold;
+	padding: 1.5em;
+	font-size: 120%;
+	float: left;
+	width: 160px;
+}
+nav a {
+	text-decoration: none;
+	transition: background-color 2s ease-in-out;
+}
+nav a:link {
+	color: #976025;
+}
+nav a:visited {
+	color: #976025;
+}
+nav a:hover {
+	color: #F7E776;
+	background-color: #976025;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+main {
+	background-color: #EEE7B4;
+	padding: 1px 20px 20px 30px;
+	display: block;
+	margin-left: 190px;
+	overflow: auto;
+}
+h1 {
+	margin-bottom: 0;
+	font-family: Jokerman, "Times New Roman", serif;
+}
+h2 {
+	color: #5c3b1b;
+	font-family: Jokerman, "Times New Roman", serif;
+}
+h3 {
+	font-family: Jokerman, "Times New Roman", serif;
+	color: #7b501e;
+}
+main ul {
+	list-style-image: url(bread.jpg);
+}
+footer {
+	background-color: #EEE7B4;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Jokerman, "Times New Roman", serif;
+	padding: 2em;
+	margin-left: 190px;
+}
+dt {
+	color: #743e39;
+}
+table {
+	border: 2px solid #976025;
+	border-collapse: collapse;
+	color: #976025;
+}
+td {
+	padding: 0.5em;
+	border: 2px solid #976025;
+	text-align: center;
+}
+th {
+	padding: 0.5em;
+	border: 2px solid #976025;
+}
+tr:nth-of-type(odd) {
+	background-color: #F7E776;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 180px;
+	padding-right: 5px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+#wrapper {
+	background-color: #90C7E3;
+	background-image: linear-gradient(to bottom, #F7E776, #976025);
+	border: 1px solid #000033;
+    margin-left: auto;
+	margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+}
